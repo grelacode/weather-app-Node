@@ -1,5 +1,6 @@
 ## Weather NodeJS-app  
 
+This litle project fetch the latitude and longitude from a city you want, and then get the weather from the openweathermap.
 
 ## How to deploy it
 
