@@ -1,11 +1,10 @@
-const axios = require('axios');
+'use strict';
 
+const axios = require('axios');
 
 const getPlaceLatLong = async (adress) => {
 
-
-    const encodeUlr = encodeURI(adress);
-    
+    const encodeUlr = encodeURI(adress);    
 
     const instance = axios.create({
         baseURL: `https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php?location=${encodeUlr}`,
@@ -31,11 +30,6 @@ const getPlaceLatLong = async (adress) => {
 
 }
 
-
 module.exports = {
     getPlaceLatLong
 }
-
-
-
-
