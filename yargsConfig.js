@@ -1,3 +1,5 @@
+'use strict';
+
 const argv = require('yargs').options({
     adress: {
         alias: 'd',
@@ -5,7 +7,6 @@ const argv = require('yargs').options({
         demand: true
     }
 }).argv;
-
 
 module.exports = {
     argv
