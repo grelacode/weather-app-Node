@@ -1,6 +1,6 @@
+'use strict'
+
 const axios = require('axios');
-
-
 
 const getWeather = async (lat, lon) => {
 
@@ -11,9 +11,6 @@ const getWeather = async (lat, lon) => {
 
 getWeather(40.7128, 74.0060)
 
-
-module.exports = {
-    
+module.exports = {    
     getWeather
-
 }
